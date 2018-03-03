@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickText"
+        android:layout_marginStart="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/textQuantity"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+    <Button
+        android:id="@+id/sellButton"
+        android:layout_width="50dp"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/sell"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>
+
+
+
