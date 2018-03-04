@@ -26,9 +26,9 @@ public class Contract {
                 COLUMN_QUANTITY + " INTEGER NOT NULL, "+
                 COLUMN_PRICE + " INTEGER NOT NULL, "+
                 COLUMN_IMAGE + " TEXT NOT NULL, "+
-                COLUMN_SUPPLIER_MAIL + " TEXT NOT NULL)"+
+                COLUMN_SUPPLIER_MAIL + " TEXT NOT NULL, "+
                 COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "+
-                COLUMN_NAME + " TEXT NOT NULL, ";
+                COLUMN_NAME + " TEXT NOT NULL)";
 
 
         public static final String DELETE_TABLE = "DROP TABLE "+ TABLE_PRODUCTS +" IF EXISTS";

@@ -60,6 +60,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.Products
             sell = (Button) itemView.findViewById(R.id.sellButton);
             itemView.setOnClickListener(this);
             sell.setOnClickListener(this);
+            txtName.setOnClickListener(this);
         }
 
         @Override
